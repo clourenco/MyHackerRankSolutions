@@ -10,6 +10,11 @@ namespace MyHackerRankSolutions
     {
         static void Main(string[] args)
         {
+            //ShowMeFirstSolution
+            var showMeFirst = new SolveMeFirstSolution();
+            showMeFirst.DisplaySolveMeFirst();
+
+
         }
     }
 }
