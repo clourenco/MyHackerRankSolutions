@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyHackerRankSolutions
+namespace MyHackerRankSolutions.SolveMeFirstSolutionChallenge
 {
     public class SolveMeFirstSolution
     {
@@ -16,13 +16,13 @@ namespace MyHackerRankSolutions
             Console.WriteLine("Input second value:");
             int b = Convert.ToInt32(Console.ReadLine());
 
-            int sum = solveMeFirst(a, b);
+            int sum = Add(a, b);
 
             Console.WriteLine("The sum is: " + sum);
             Console.ReadLine();
         }
 
-        private int solveMeFirst(int a, int b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
